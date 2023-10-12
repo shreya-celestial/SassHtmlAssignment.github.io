@@ -63,7 +63,8 @@ body {
       max-width: 80%;
       margin: 0 auto;
       padding: 80px 0;
-      display: flex; }
+      display: flex;
+      align-items: center; }
       .item2 .actual-bgcol .main .content {
         flex-basis: 50%; }
         .item2 .actual-bgcol .main .content h1 {
@@ -423,8 +424,6 @@ body {
             width: 25px;
             cursor: pointer; }
       .item10 .main .contents .line {
-        display: flex;
-        flex-direction: column;
         height: 190px;
         border: 1px solid #F0F8FF; }
       .item10 .main .contents .footer2 {

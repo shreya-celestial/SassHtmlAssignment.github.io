@@ -1,0 +1,11 @@
+1. npm init -y //to create package.json
+2. npm install node-sass //to install node-sass package
+3. In the package.json, replace the test under script section with:
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+and save the file then
+4. create a folder with the name scss and include all the scss files in this folder only
+5. create a folder with the name dist and all the css files after compiling of scss will be created in css folder within this dist folder.
+6. create the index and all the other working files in the dist folder. only create scss files and partials in scss folder.
+7. to compile the scss file and generate its respective css file, run the cmd:
+    npm run sass
+8. use ctrl+l to clear the terminal
